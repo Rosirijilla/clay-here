@@ -1,9 +1,9 @@
 .grid-container {
   display: grid;
   grid-template-areas:
-    "header header header header"
-    "aside main main main"
-    "footer footer footer footer";
+    "header header"
+    "aside main"
+    "footer footer";
   grid-template-columns: 20% auto;
   grid-template-rows: 15% auto 10%;
   height: 100vh;
